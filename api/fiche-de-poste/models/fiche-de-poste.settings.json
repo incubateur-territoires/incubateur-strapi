@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fiche_de_postes",
+  "info": {
+    "name": "Fiche de Poste"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Role": {
+      "type": "string"
+    },
+    "Contrat": {
+      "type": "enumeration",
+      "enum": [
+        "independant",
+        "contractuelle"
+      ],
+      "required": true
+    },
+    "Equipe": {
+      "type": "string"
+    },
+    "Post_ouvert": {
+      "type": "date"
+    },
+    "Contact": {
+      "type": "email"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "recrutement_actif",
+        "recrutement_arrete",
+        "pourvu"
+      ],
+      "default": "recrutement_actif",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

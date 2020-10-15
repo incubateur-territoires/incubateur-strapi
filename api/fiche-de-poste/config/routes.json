@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fiche-de-postes",
+      "handler": "fiche-de-poste.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fiche-de-postes/count",
+      "handler": "fiche-de-poste.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fiche-de-postes/:id",
+      "handler": "fiche-de-poste.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fiche-de-postes",
+      "handler": "fiche-de-poste.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fiche-de-postes/:id",
+      "handler": "fiche-de-poste.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fiche-de-postes/:id",
+      "handler": "fiche-de-poste.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

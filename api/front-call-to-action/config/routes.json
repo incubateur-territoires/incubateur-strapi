@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/front-call-to-action",
+      "handler": "front-call-to-action.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/front-call-to-action",
+      "handler": "front-call-to-action.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/front-call-to-action",
+      "handler": "front-call-to-action.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

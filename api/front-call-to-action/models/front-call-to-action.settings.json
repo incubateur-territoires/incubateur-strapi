@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "front_call_to_actions",
+  "info": {
+    "name": "Front Call to Action"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Page": {
+      "model": "page"
+    }
+  }
+}
