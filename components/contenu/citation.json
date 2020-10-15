@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contenu_citations",
+  "info": {
+    "name": "citation",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "citation": {
+      "type": "richtext"
+    }
+  }
+}

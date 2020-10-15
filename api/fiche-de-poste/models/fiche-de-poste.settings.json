@@ -9,10 +9,10 @@
     "timestamps": true
   },
   "attributes": {
-    "Role": {
+    "role": {
       "type": "string"
     },
-    "Contrat": {
+    "contrat": {
       "type": "enumeration",
       "enum": [
         "independant",
@@ -20,16 +20,16 @@
       ],
       "required": true
     },
-    "Equipe": {
+    "equipe": {
       "type": "string"
     },
-    "Post_ouvert": {
+    "date_ouverture": {
       "type": "date"
     },
-    "Contact": {
+    "contact": {
       "type": "email"
     },
-    "Status": {
+    "status": {
       "type": "enumeration",
       "enum": [
         "recrutement_actif",
@@ -39,7 +39,7 @@
       "default": "recrutement_actif",
       "required": true
     },
-    "Description": {
+    "contenu": {
       "type": "richtext",
       "required": true
     }

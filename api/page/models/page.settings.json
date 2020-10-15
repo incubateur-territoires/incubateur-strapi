@@ -9,11 +9,11 @@
     "timestamps": true
   },
   "attributes": {
-    "Content": {
+    "contenu": {
       "type": "richtext",
       "required": true
     },
-    "Title": {
+    "titre": {
       "type": "string"
     }
   }

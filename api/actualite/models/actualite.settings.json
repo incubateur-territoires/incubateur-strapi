@@ -9,8 +9,15 @@
     "timestamps": true
   },
   "attributes": {
-    "Titre": {
+    "titre": {
       "type": "string"
+    },
+    "contenu": {
+      "type": "dynamiczone",
+      "components": [
+        "contenu.citation",
+        "contenu.texte"
+      ]
     }
   }
 }
