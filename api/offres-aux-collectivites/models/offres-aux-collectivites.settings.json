@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "offres_aux_collectivites",
+  "info": {
+    "name": "Offres aux Collectivités"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "contenu": {
+      "type": "dynamiczone",
+      "components": [
+        "contenu.citation",
+        "contenu.texte"
+      ]
+    }
+  }
+}

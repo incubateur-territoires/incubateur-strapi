@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/offres-aux-collectivites",
+      "handler": "offres-aux-collectivites.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/offres-aux-collectivites",
+      "handler": "offres-aux-collectivites.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/offres-aux-collectivites",
+      "handler": "offres-aux-collectivites.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
